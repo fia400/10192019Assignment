@@ -1,6 +1,25 @@
-Body {
-  background:#ffffff;
+.bg {
+  background-image: url("/Users/sandybonbon/10192019Assignment/assets/images/criss-cross.png");
 }
+
+header
+  {font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: large;
+    color:white;
+    background-color: #4aaaa5;
+    padding-top: 50pm;
+    padding-bottom: 50px;
+    text-align: left;
+    width: 150px;
+    height: 50px;
+    padding-bottom: 0%;
+    text-align:center;
+
+}
+
+img 
+  {padding:10px;
+  }
 
 h1 
   {font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -9,17 +28,27 @@ h1
 }
 
 
-body {font:'Arial', 'Helvetica Neue', Helvetica, sans-serif;}
+body {font:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+      background:#ffffff;
+  }
 
 
 .container{
-    width:960px;
-    background-image: url("/Users/sandybonbon/10192019Assignment/assets/images/criss-cross.png");
-    border-top:8px color:#4aaaa5;
+    width:1000px;
+    border-top:0px color:#4aaaa5;
     font:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-color:#ffffff;
     color:#777777;
 
+  } 
+
+  .padding{
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    padding: flex;
+ 
+  }
 
   }
   .page-header{
@@ -29,17 +58,31 @@ body {font:'Arial', 'Helvetica Neue', Helvetica, sans-serif;}
     color: white;
     padding-bottom: 70px;
     text-align: left;
+    flex-shrink: 0;
   }
 
 
 .page-footer{
-  width:960px;
+  widows: 400px;
   border-top: 8px solid #4aaaa5;
   background-color: #666666;
-  padding-top: 50pm;
-  padding-bottom: 50px;
+  padding-top: 0pm;
+  padding-bottom: 20px;
   color: white;
   text-align: center;
   font-size:x-small;
+  flex-shrink: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.display {
+  display: inline-block;
+  display: block;
 }
 
