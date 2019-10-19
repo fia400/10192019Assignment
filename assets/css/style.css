@@ -4,17 +4,10 @@ Body {
 
 h1 
   {font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: large;
+    color:#4aaaa5;
 }
 
-
-h2 
-  {color:#4aaaa5;
-}
-
-p 
-  {color:#777777;
-    font:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
 
 body {font:'Arial', 'Helvetica Neue', Helvetica, sans-serif;}
 
@@ -24,13 +17,29 @@ body {font:'Arial', 'Helvetica Neue', Helvetica, sans-serif;}
     background-image: url("/Users/sandybonbon/10192019Assignment/assets/images/criss-cross.png");
     border-top:8px color:#4aaaa5;
     font:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-
-}
-
-.border{
     background-color:#ffffff;
-}
+    color:#777777;
+
+
+  }
+  .page-header{
+    width:960px;
+    background-color: white;
+    padding-top: 50pm;
+    color: white;
+    padding-bottom: 70px;
+    text-align: left;
+  }
+
 
 .page-footer{
+  width:960px;
   border-top: 8px solid #4aaaa5;
+  background-color: #666666;
+  padding-top: 50pm;
+  padding-bottom: 50px;
+  color: white;
+  text-align: center;
+  font-size:x-small;
 }
+
